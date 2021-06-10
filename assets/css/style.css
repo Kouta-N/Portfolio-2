@@ -1,0 +1,308 @@
+/*CSS sheet*/
+body {
+  background-color: rgb(248, 245, 238);
+}
+.title-font {
+  font-family: cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+.header-color {
+  opacity: 0.7;
+  background: #f6b667;
+  background: -moz-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: -webkit-gradient(
+    linear,
+    left center,
+    right center,
+    from(#ffffff),
+    to(#f6b667)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: -o-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: linear-gradient(to right, #ffffff 0%, #f6b667 100%);
+}
+.main-text {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.4em;
+}
+.side-text {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.3em;
+}
+.login-box {
+  background: #f6fffd;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.coach-login-box {
+  background: #f2f8ec;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.links {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  margin: 1em auto;
+  width: 40%;
+  font-size: 0.9em;
+  font-weight: bold;
+  background: rgb(248, 244, 239);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.1em;
+  padding-bottom: 0.9em;
+  font-weight: bold;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.table-align {
+  padding: 0 0 0 6em;
+}
+.login-button {
+  font-size: 0.8em;
+  border-radius: 0.2em;
+  color: white;
+  background: #00bcd4;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.login-button:hover {
+  background-color: #81faf0;
+}
+.table-align {
+  padding: 0 0 0 6em;
+}
+.profile-box {
+  background: rgb(255, 255, 249);
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  margin: 1em auto;
+  padding: 1em;
+  width: 50%;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.profile-box2 {
+  background: white;
+  border-bottom: solid 0.05em #aac5de;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-weight: bold;
+  box-shadow: 0 0 0.1em 0 grey;
+}
+.account-delete-button {
+  width: 35%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: red;
+  margin: 2.5em 0 0 5.8em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.delete-confirm-box {
+  background: rgb(252, 220, 179);
+  padding: 1em;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.form-box {
+  background: white;
+  border-bottom: solid 0.05em #aac5de;
+  font-size: 1em;
+  width: 100%;
+  padding: 0.2em;
+  margin-bottom: 0.4em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-weight: bold;
+  box-shadow: 0 0 0.1em 0 grey;
+}
+.plan-make-box {
+  width: 40%;
+  background-image: linear-gradient(#f2fdf8, #fafaf3);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.5em;
+  border: 0.1em solid black;
+  margin: 1.5em auto;
+  padding: 1em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.report-box {
+  background-image: linear-gradient(#c8f7d7, #f0fff5);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 2em auto;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.plan-display-box {
+  display: block;
+  width: 40%;
+  padding: 1em;
+  margin: 2em auto;
+  font-size: 1.3em;
+  background: #e9f5f3;
+  border: 0.01em solid black;
+  border-radius: 0.1em;
+  box-shadow: 0px 0.05em 0.05em 0.05em grey;
+  border-bottom: solid 0.05em black;
+}
+.plan-information-box {
+  background-color: white;
+  padding: 0.4em;
+}
+.coach-list-box {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20em;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  background-image: linear-gradient(#f8f1e4, #faf6ef);
+  border-radius: 0.1em;
+}
+.user-plan-display-box {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20em;
+  font-size: 1.5em;
+  background-image: linear-gradient(#f7e3bb, #f8f1e3);
+  border-radius: 0.5em;
+  box-shadow: 0px 0.1em 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.list-display-box {
+  display: block;
+  border: solid 0.05em black;
+  background-image: linear-gradient(rgb(93, 232, 193), rgb(139, 244, 214));
+  width: 50%;
+  margin-top: -75em;
+  font-size: 2em;
+  text-align: center;
+  margin-left: 15em;
+  border-radius: 0.4em;
+  box-shadow: 0px 0.1em 0.05em 0.01em grey;
+  border-bottom: solid 0.05em black;
+}
+.coach-search-input {
+  display: block;
+  font-size: 2em;
+  margin-left: 20em;
+  margin-bottom: 0.5em;
+  width: 30%;
+}
+.img-box {
+  height: 70%;
+  width: 70%;
+  margin-left: 20%;
+}
+.image-profile-box {
+  border-bottom: solid 0.05em #aac5de;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  box-shadow: 0 0 0.1em 0 grey;
+}
+.contents {
+  height: 25em;
+  overflow: hidden;
+}
+.left {
+  float: left;
+  height: 25em;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#photo01 {
+  background-image: url('~@/assets/image/shoes.jpg');
+}
+#photo02 {
+  background-image: url('~@/assets/image/beCoach.jpg');
+}
+#photo03 {
+  background-image: url('~@/assets/image/handShake.jpg');
+}
+.right {
+  float: right;
+  width: 50%;
+  height: 25em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  opacity: 0.7;
+  background: #f0e0be;
+  background: -moz-linear-gradient(left, #ffffff 0%, #f3f2a7 100%);
+  background: -webkit-gradient(
+    linear,
+    left center,
+    right center,
+    from(#ffffff),
+    to(#f3f2a7)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 0%, #f3f2a7 100%);
+  background: -o-linear-gradient(left, #ffffff 0%, #f3f2a7 100%);
+  background: linear-gradient(to right, #ffffff 0%, #f3f2a7 100%);
+}
+.contents p,
+h4 {
+  margin: 30px 120px 0 21px;
+  color: black;
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.carousel-size {
+  max-height: 10em;
+}
+.coach-search-box {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  border: 0.1em solid black;
+  border-radius: 0.4em;
+  padding: 1em;
+  background-color: rgb(241, 252, 247);
+}
+.card-layout {
+  margin: 0 auto;
+  border-radius: 0.4em;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.carousel-size {
+  height: 10px;
+}
+.user-chat-box {
+  margin-top: 1.25em;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  background-color: rgb(232, 247, 240);
+}
+.chat-form {
+  width: 50%;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em auto;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  background-color: white;
+}
